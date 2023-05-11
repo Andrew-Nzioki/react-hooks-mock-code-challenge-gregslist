@@ -9,6 +9,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "dev":"start && server",
     "start": "react-scripts start",
     "server": "json-server --watch db.json -p 6001",
     "test": "jest"
